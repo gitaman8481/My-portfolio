@@ -9,3 +9,13 @@ module.exports = {
     return config;
   },
 };
+
+const nextConfig = {
+  images: {
+    loader: "akamai",
+    path: "",
+  },
+  assetPrefix: "./",
+};
+
+export default nextConfig;
